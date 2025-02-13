@@ -1,6 +1,8 @@
-//Sat Jan 25 2025 14:53:45 GMT+0000 (Coordinated Universal Time)
+//Thu Feb 13 2025 05:04:44 GMT+0000 (Coordinated Universal Time)
 //Base:https://github.com/echo094/decode-js
 //Modify:https://github.com/smallfawn/decode_action
+const $ = new Env("\u65B0\u6C5F\u5317");
+const notify = $.isNode() ? require("../sendNotify") : "";
 function a0d(a, b) {
   var c = a0c();
   return a0d = function (d, e) {
